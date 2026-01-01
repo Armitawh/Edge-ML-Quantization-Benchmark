@@ -69,7 +69,7 @@ This demonstrates effective feature learning and fast convergence.
 | Model | Size (KB) | Accuracy (%) | Inference Time (s) |
 |------|----------|--------------|--------------------|
 | FP32 (Original) | **4690.61** | **98.97** | **5.04** |
-| INT8 (Quantized) | **1232.20** | **98.98** | **5.80** |
+| INT8 (Quantized) | **1232.20** | **98.98** | **5.00** |
 
 ---
 
@@ -80,7 +80,3 @@ This demonstrates effective feature learning and fast convergence.
 
 This result reflects a real-world edge AI trade-off: quantization significantly reduces memory footprint while latency gains depend on the underlying hardware and runtime backend.
 
----
-
-### 🔹 Engineering Insight
-Rather than assuming quantization always improves speed, this project emphasizes **measurement-driven optimization** and **hardware-aware decision making**, which are critical skills for ML compiler and edge AI engineering roles.
