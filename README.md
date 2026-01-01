@@ -51,8 +51,6 @@ This work is designed to reflect real-world constraints faced in **edge AI, embe
 
 ## 📊 Results Overview
 
-![Quantization Results](results_summary.png)
-
 The CNN model was trained for 3 epochs on the MNIST dataset and optimized using post-training INT8 dynamic quantization. Training converged smoothly with decreasing loss values, confirming stable learning behavior.
 
 ### 🔹 Training Loss
